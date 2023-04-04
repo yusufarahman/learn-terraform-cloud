@@ -1,12 +1,12 @@
 terraform {
 
-//  cloud {
-//    organization = "Yusuf-HashiCorp"
-//
-//    workspaces {
-//      name = "learn-terraform-cloud"
-//    }
-//  }
+  cloud {
+    organization = "Yusuf-HashiCorp"
+
+    workspaces {
+      name = "learn-terraform-cloud"
+    }
+  }
 
   required_providers {
     aws = {
